@@ -1,0 +1,13 @@
+router 
+  => route process
+
+views
+  => .vue (component)
+
+
+App.vue
+  => views
+
+components
+  => part file (.vue)
+
