@@ -4,7 +4,7 @@
     
     <div class="container my-3">
       <div class="row">
-        <div class="col-md-3 my-3" v-for="country in countries" :key="country">
+        <div class="col-md-3 my-3" v-for="(country,index) in countries" :key="index">
           <div class="card shadow">
             <img :src="country.flags.png" class="card-img-top" alt="...">
             <div class="card-body">
